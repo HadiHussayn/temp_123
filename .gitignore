@@ -1,0 +1,24 @@
+.DS_Store
+node_modules
+build
+.env
+.env.test
+.DS_Store
+
+package-lock.json
+yarn.lock
+yarn-error.log
+
+dist
+public/*
+!public/logotipos/
+.env
+.env.test
+certs/certificadoEfi.p12
+contacts.csv
+
+/src/config/sentry.js
+
+# Ignore test-related files
+/coverage.data
+/coverage/
